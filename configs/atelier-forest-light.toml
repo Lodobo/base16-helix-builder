@@ -1,0 +1,79 @@
+ 
+
+"ui.background" = { bg = "base00" }
+"ui.virtual.whitespace" = "base03"
+"ui.menu" = { fg = "base05", bg = "base01" }
+"ui.menu.selected" = { fg = "base01", bg = "base04" }
+"ui.linenr" = { fg = "base03" }
+"ui.popup" = { bg = "base01" }
+"ui.window" = { bg = "base01" }
+"ui.linenr.selected" = { fg = "base04", modifiers = ["bold"] }
+"ui.selection" = { bg = "base02" }
+"comment" = { fg = "base03", modifiers = ["italic"] }
+"ui.statusline" = { fg = "base04", bg = "base01" }
+"ui.cursor" = { fg = "base04", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "base05", modifiers = ["reversed"] }
+"ui.text" = "base05"
+"operator" = "base05"
+"ui.text.focus" = "base05"
+"variable" = "base08"
+"constant.numeric" = "base09"
+"constant" = "base09"
+"attribute" = "base09"
+"type" = "base0A"
+"ui.cursor.match" = { fg = "base0A", modifiers = ["underlined"] }
+"string"  = "base0B"
+"variable.other.member" = "base0B"
+"constant.character.escape" = "base0C"
+"function" = "base0D"
+"constructor" = "base0D"
+"special" = "base0D"
+"keyword" = "base0E"
+"label" = "base0E"
+"namespace" = "base0E"
+"ui.help" = { fg = "base06", bg = "base01" }
+
+"markup.heading" = "base0D"
+"markup.list" = "base08"
+"markup.bold" = { fg = "base0A", modifiers = ["bold"] }
+"markup.italic" = { fg = "base0E", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "base09", modifiers = ["underlined"] }
+"markup.link.text" = "base08"
+"markup.quote" = "base0C"
+"markup.raw" = "base0B"
+
+"diff.plus" = "base0B"
+"diff.delta" = "base09"
+"diff.minus" = "base08"
+
+"diagnostic" = { modifiers = ["underlined"] }
+"ui.gutter" = { fg = "base04" }
+"info" = "base0D"
+"hint" = "base03"
+"debug" = "base03"
+"warning" = "base09"
+"error" = "base08"
+
+"ui.bufferline" = { fg = "base04", bg = "base00" }
+"ui.bufferline.active" = { fg = "base06", bg = "base01" }
+
+[palette]
+# scheme: Atelier Forest Light
+# author: Bram de Haan (http://atelierbramdehaan.nl)
+base00 = '#f1efee'
+base01 = '#e6e2e0'
+base02 = '#a8a19f'
+base03 = '#9c9491'
+base04 = '#766e6b'
+base05 = '#68615e'
+base06 = '#2c2421'
+base07 = '#1b1918'
+base08 = '#f22c40'
+base09 = '#df5320'
+base0A = '#c38418'
+base0B = '#7b9726'
+base0C = '#3d97b8'
+base0D = '#407ee7'
+base0E = '#6666ea'
+base0F = '#c33ff3'

@@ -1,0 +1,79 @@
+ 
+
+"ui.background" = { bg = "base00" }
+"ui.virtual.whitespace" = "base03"
+"ui.menu" = { fg = "base05", bg = "base01" }
+"ui.menu.selected" = { fg = "base01", bg = "base04" }
+"ui.linenr" = { fg = "base03" }
+"ui.popup" = { bg = "base01" }
+"ui.window" = { bg = "base01" }
+"ui.linenr.selected" = { fg = "base04", modifiers = ["bold"] }
+"ui.selection" = { bg = "base02" }
+"comment" = { fg = "base03", modifiers = ["italic"] }
+"ui.statusline" = { fg = "base04", bg = "base01" }
+"ui.cursor" = { fg = "base04", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "base05", modifiers = ["reversed"] }
+"ui.text" = "base05"
+"operator" = "base05"
+"ui.text.focus" = "base05"
+"variable" = "base08"
+"constant.numeric" = "base09"
+"constant" = "base09"
+"attribute" = "base09"
+"type" = "base0A"
+"ui.cursor.match" = { fg = "base0A", modifiers = ["underlined"] }
+"string"  = "base0B"
+"variable.other.member" = "base0B"
+"constant.character.escape" = "base0C"
+"function" = "base0D"
+"constructor" = "base0D"
+"special" = "base0D"
+"keyword" = "base0E"
+"label" = "base0E"
+"namespace" = "base0E"
+"ui.help" = { fg = "base06", bg = "base01" }
+
+"markup.heading" = "base0D"
+"markup.list" = "base08"
+"markup.bold" = { fg = "base0A", modifiers = ["bold"] }
+"markup.italic" = { fg = "base0E", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "base09", modifiers = ["underlined"] }
+"markup.link.text" = "base08"
+"markup.quote" = "base0C"
+"markup.raw" = "base0B"
+
+"diff.plus" = "base0B"
+"diff.delta" = "base09"
+"diff.minus" = "base08"
+
+"diagnostic" = { modifiers = ["underlined"] }
+"ui.gutter" = { fg = "base04" }
+"info" = "base0D"
+"hint" = "base03"
+"debug" = "base03"
+"warning" = "base09"
+"error" = "base08"
+
+"ui.bufferline" = { fg = "base04", bg = "base00" }
+"ui.bufferline.active" = { fg = "base06", bg = "base01" }
+
+[palette]
+# scheme: Snazzy
+# author: Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+base00 = '#282a36'
+base01 = '#34353e'
+base02 = '#43454f'
+base03 = '#78787e'
+base04 = '#a5a5a9'
+base05 = '#e2e4e5'
+base06 = '#eff0eb'
+base07 = '#f1f1f0'
+base08 = '#ff5c57'
+base09 = '#ff9f43'
+base0A = '#f3f99d'
+base0B = '#5af78e'
+base0C = '#9aedfe'
+base0D = '#57c7ff'
+base0E = '#ff6ac1'
+base0F = '#b2643c'

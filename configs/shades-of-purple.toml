@@ -1,0 +1,79 @@
+ 
+
+"ui.background" = { bg = "base00" }
+"ui.virtual.whitespace" = "base03"
+"ui.menu" = { fg = "base05", bg = "base01" }
+"ui.menu.selected" = { fg = "base01", bg = "base04" }
+"ui.linenr" = { fg = "base03" }
+"ui.popup" = { bg = "base01" }
+"ui.window" = { bg = "base01" }
+"ui.linenr.selected" = { fg = "base04", modifiers = ["bold"] }
+"ui.selection" = { bg = "base02" }
+"comment" = { fg = "base03", modifiers = ["italic"] }
+"ui.statusline" = { fg = "base04", bg = "base01" }
+"ui.cursor" = { fg = "base04", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "base05", modifiers = ["reversed"] }
+"ui.text" = "base05"
+"operator" = "base05"
+"ui.text.focus" = "base05"
+"variable" = "base08"
+"constant.numeric" = "base09"
+"constant" = "base09"
+"attribute" = "base09"
+"type" = "base0A"
+"ui.cursor.match" = { fg = "base0A", modifiers = ["underlined"] }
+"string"  = "base0B"
+"variable.other.member" = "base0B"
+"constant.character.escape" = "base0C"
+"function" = "base0D"
+"constructor" = "base0D"
+"special" = "base0D"
+"keyword" = "base0E"
+"label" = "base0E"
+"namespace" = "base0E"
+"ui.help" = { fg = "base06", bg = "base01" }
+
+"markup.heading" = "base0D"
+"markup.list" = "base08"
+"markup.bold" = { fg = "base0A", modifiers = ["bold"] }
+"markup.italic" = { fg = "base0E", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "base09", modifiers = ["underlined"] }
+"markup.link.text" = "base08"
+"markup.quote" = "base0C"
+"markup.raw" = "base0B"
+
+"diff.plus" = "base0B"
+"diff.delta" = "base09"
+"diff.minus" = "base08"
+
+"diagnostic" = { modifiers = ["underlined"] }
+"ui.gutter" = { fg = "base04" }
+"info" = "base0D"
+"hint" = "base03"
+"debug" = "base03"
+"warning" = "base09"
+"error" = "base08"
+
+"ui.bufferline" = { fg = "base04", bg = "base00" }
+"ui.bufferline.active" = { fg = "base06", bg = "base01" }
+
+[palette]
+# scheme: Shades of Purple
+# author: Iolar Demartini Junior (http://github.com/demartini) based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).
+base00 = '#1e1e3f'
+base01 = '#43d426'
+base02 = '#f1d000'
+base03 = '#808080'
+base04 = '#6871ff'
+base05 = '#c7c7c7'
+base06 = '#ff77ff'
+base07 = '#ffffff'
+base08 = '#d90429'
+base09 = '#f92a1c'
+base0A = '#ffe700'
+base0B = '#3ad900'
+base0C = '#00c5c7'
+base0D = '#6943ff'
+base0E = '#ff2c70'
+base0F = '#79e8fb'

@@ -1,0 +1,79 @@
+ 
+
+"ui.background" = { bg = "base00" }
+"ui.virtual.whitespace" = "base03"
+"ui.menu" = { fg = "base05", bg = "base01" }
+"ui.menu.selected" = { fg = "base01", bg = "base04" }
+"ui.linenr" = { fg = "base03" }
+"ui.popup" = { bg = "base01" }
+"ui.window" = { bg = "base01" }
+"ui.linenr.selected" = { fg = "base04", modifiers = ["bold"] }
+"ui.selection" = { bg = "base02" }
+"comment" = { fg = "base03", modifiers = ["italic"] }
+"ui.statusline" = { fg = "base04", bg = "base01" }
+"ui.cursor" = { fg = "base04", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "base05", modifiers = ["reversed"] }
+"ui.text" = "base05"
+"operator" = "base05"
+"ui.text.focus" = "base05"
+"variable" = "base08"
+"constant.numeric" = "base09"
+"constant" = "base09"
+"attribute" = "base09"
+"type" = "base0A"
+"ui.cursor.match" = { fg = "base0A", modifiers = ["underlined"] }
+"string"  = "base0B"
+"variable.other.member" = "base0B"
+"constant.character.escape" = "base0C"
+"function" = "base0D"
+"constructor" = "base0D"
+"special" = "base0D"
+"keyword" = "base0E"
+"label" = "base0E"
+"namespace" = "base0E"
+"ui.help" = { fg = "base06", bg = "base01" }
+
+"markup.heading" = "base0D"
+"markup.list" = "base08"
+"markup.bold" = { fg = "base0A", modifiers = ["bold"] }
+"markup.italic" = { fg = "base0E", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "base09", modifiers = ["underlined"] }
+"markup.link.text" = "base08"
+"markup.quote" = "base0C"
+"markup.raw" = "base0B"
+
+"diff.plus" = "base0B"
+"diff.delta" = "base09"
+"diff.minus" = "base08"
+
+"diagnostic" = { modifiers = ["underlined"] }
+"ui.gutter" = { fg = "base04" }
+"info" = "base0D"
+"hint" = "base03"
+"debug" = "base03"
+"warning" = "base09"
+"error" = "base08"
+
+"ui.bufferline" = { fg = "base04", bg = "base00" }
+"ui.bufferline.active" = { fg = "base06", bg = "base01" }
+
+[palette]
+# scheme: Zenburn
+# author: elnawe
+base00 = '#383838'
+base01 = '#404040'
+base02 = '#606060'
+base03 = '#6f6f6f'
+base04 = '#808080'
+base05 = '#dcdccc'
+base06 = '#c0c0c0'
+base07 = '#ffffff'
+base08 = '#dca3a3'
+base09 = '#dfaf8f'
+base0A = '#e0cf9f'
+base0B = '#5f7f5f'
+base0C = '#93e0e3'
+base0D = '#7cb8bb'
+base0E = '#dc8cc3'
+base0F = '#000000'

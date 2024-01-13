@@ -1,0 +1,79 @@
+ 
+
+"ui.background" = { bg = "base00" }
+"ui.virtual.whitespace" = "base03"
+"ui.menu" = { fg = "base05", bg = "base01" }
+"ui.menu.selected" = { fg = "base01", bg = "base04" }
+"ui.linenr" = { fg = "base03" }
+"ui.popup" = { bg = "base01" }
+"ui.window" = { bg = "base01" }
+"ui.linenr.selected" = { fg = "base04", modifiers = ["bold"] }
+"ui.selection" = { bg = "base02" }
+"comment" = { fg = "base03", modifiers = ["italic"] }
+"ui.statusline" = { fg = "base04", bg = "base01" }
+"ui.cursor" = { fg = "base04", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "base05", modifiers = ["reversed"] }
+"ui.text" = "base05"
+"operator" = "base05"
+"ui.text.focus" = "base05"
+"variable" = "base08"
+"constant.numeric" = "base09"
+"constant" = "base09"
+"attribute" = "base09"
+"type" = "base0A"
+"ui.cursor.match" = { fg = "base0A", modifiers = ["underlined"] }
+"string"  = "base0B"
+"variable.other.member" = "base0B"
+"constant.character.escape" = "base0C"
+"function" = "base0D"
+"constructor" = "base0D"
+"special" = "base0D"
+"keyword" = "base0E"
+"label" = "base0E"
+"namespace" = "base0E"
+"ui.help" = { fg = "base06", bg = "base01" }
+
+"markup.heading" = "base0D"
+"markup.list" = "base08"
+"markup.bold" = { fg = "base0A", modifiers = ["bold"] }
+"markup.italic" = { fg = "base0E", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "base09", modifiers = ["underlined"] }
+"markup.link.text" = "base08"
+"markup.quote" = "base0C"
+"markup.raw" = "base0B"
+
+"diff.plus" = "base0B"
+"diff.delta" = "base09"
+"diff.minus" = "base08"
+
+"diagnostic" = { modifiers = ["underlined"] }
+"ui.gutter" = { fg = "base04" }
+"info" = "base0D"
+"hint" = "base03"
+"debug" = "base03"
+"warning" = "base09"
+"error" = "base08"
+
+"ui.bufferline" = { fg = "base04", bg = "base00" }
+"ui.bufferline.active" = { fg = "base06", bg = "base01" }
+
+[palette]
+# scheme: Woodland
+# author: Jay Cornwall (https://jcornwall.com)
+base00 = '#231e18'
+base01 = '#302b25'
+base02 = '#48413a'
+base03 = '#9d8b70'
+base04 = '#b4a490'
+base05 = '#cabcb1'
+base06 = '#d7c8bc'
+base07 = '#e4d4c8'
+base08 = '#d35c5c'
+base09 = '#ca7f32'
+base0A = '#e0ac16'
+base0B = '#b7ba53'
+base0C = '#6eb958'
+base0D = '#88a4d3'
+base0E = '#bb90e2'
+base0F = '#b49368'

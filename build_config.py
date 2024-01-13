@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import os
 import yaml
 import re
 from pathlib import Path
@@ -67,7 +68,10 @@ helix_base_config = """
 """
 
 def main():    
-    path = Path("/home/silvere/git/base16-schemes/schemes")
+    path = Path("schemes")
+
+    os.makedirs("configs", exist_ok=True)
+
     for file_path in path.iterdir():
         if file_path.is_file():
             with open(file_path, 'r') as stream:
@@ -102,11 +106,13 @@ def main():
                 name = re.sub('-+', '-', name)
                 name = re.sub('-$', '', name)
                 filename = f"{name}.toml"
+
+                # Write the modified string to a file in the output directory
+                output_file_path = os.path.join("configs", filename)
                 
-                with open(filename, "w") as config_file:
+                with open(output_file_path, "w") as config_file:
                     # Writing data to a file
                     config_file.write(full_config)
 
-                
 if __name__ == "__main__":
     main()
